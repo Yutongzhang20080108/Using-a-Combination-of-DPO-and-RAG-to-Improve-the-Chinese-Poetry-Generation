@@ -39,7 +39,7 @@ def generate(theme, relevant=""):
     return response
 
 embedding_model="text-embedding-3-small"
-client = OpenAI(base_url="https://api.chatanywhere.tech/v1", api_key="sk-Dxfv0Y6RZbMmsjDsqwadHlWx1BIjMr2J5iq8L1h9hkytBZoB")
+client = OpenAI(base_url="https://api.chatanywhere.tech/v1")
 
 def get_embedding(text, model):
   return client.embeddings.create(input=text, model=embedding_model).data[0].embedding
