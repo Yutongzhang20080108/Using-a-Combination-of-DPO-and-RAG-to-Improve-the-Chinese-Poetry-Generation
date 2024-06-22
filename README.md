@@ -5,3 +5,4 @@
 4. All our generation can be seen in dictionary Generation
 5. Our RAG demo can be seen in demo.py
 6. GPT-4o results can be seen in GPT-4o Result
+7. Our final method can be seen in final.ipynb
